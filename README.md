@@ -105,15 +105,15 @@
 
 #### 5.1. Inbound Rules for WordPressSecurityGroup
 - Configure inbound and outbound rules as needed (e.g., allow SSH from your IP and HTTP/HTTPS).
-  - **Type #1:** HTTP
+  - **Type #1:** `HTTP`
     - **Port:** 80
     - **Source:** 0.0.0.0/0
     - **Purpose:** Allow HTTP traffic from the internet to the web servers.
-  - **Type #2:** HTTPS
+  - **Type #2:** `HTTPS`
     - **Port:** 443
     - **Source:** 0.0.0.0/0
     - **Purpose:** Allow HTTPS traffic from the internet to the web servers.
-  - **Type #3:** SSH
+  - **Type #3:** `SSH`
     - **Port:** 22
     - **Source:** Your IP address
     - **Purpose:** Allow SSH access from your IP address for management purposes.
