@@ -1,4 +1,4 @@
-# My-Dynamic-Web-App
+# My Dynamic Web App
 **Objective:** Deploy multiple WordPress applications on an Amazon Linux server using Apache and secure them with Free SSL.
 **Objective Description:** This repository contains scripts and configurations to deploy multiple WordPress applications on an Amazon Linux server using Apache, and to secure each site with Free SSL certificates for enhanced security.
 
@@ -15,6 +15,7 @@
 - Apache web server installed.
 
 ## AWS Setup Steps
+**Make the names unique based on your project!
 
 ### 1. Create a Virtual Private Cloud (VPC)
 
@@ -257,4 +258,5 @@ sudo certbot renew --dry-run
 
 
 ### NOTE:
+- For the naming of the items, make them unique to your project. 
 - In this README.md, I've specified that the domain and subdomains are configured through IONOS (1&1). Adjust the domain names and subdomains accordingly based on your actual setup.
